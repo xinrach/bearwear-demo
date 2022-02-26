@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: flex-start;
+    margin-top: 3%;
+    background-color: gold;
+    padding: 10px 10px 10px 10px;
+}
+  
+.menu, .review, .menu-form, .review-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2% 2% 2% 2%;
+    width: 50%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+}
+
+#id {
+    background-color: gold;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0 0 0 0;
+}
+
+.input, .home-page {
+    display: flex;
+    flex-direction: row;
+}
+
